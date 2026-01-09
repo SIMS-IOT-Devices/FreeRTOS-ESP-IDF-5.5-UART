@@ -1,3 +1,5 @@
+// Read a string send via UART0 and print it in the serial monitor
+
 #include "driver/uart.h"
 #include "esp_log.h"
 #include <string.h>
@@ -35,3 +37,4 @@ void app_main(void)
         }
     }
 }
+

@@ -1,3 +1,5 @@
+# Send a string via USB to ESP32
+
 import serial
 import time
 
@@ -17,3 +19,4 @@ ser.write(message.encode('utf-8'))
 print("Sent:", message)
 
 ser.close()
+
